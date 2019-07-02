@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Track Yourself</string>
+    <string name="demo_note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non luctus lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula nunc felis, eget elementum dui feugiat ut. Mauris vel efficitur libero. Sed eu imperdiet sem, quis maximus ex. Vivamus ac condimentum lacus. Aliquam tincidunt, nisi non imperdiet vestibulum, quam mi fringilla odio, porta egestas orci dui auctor eros.</string>
+    <string name="quote">“Effective performance is preceded by painstaking preparation” ~ Brian Tracy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

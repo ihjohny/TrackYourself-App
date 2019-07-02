@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop=".25dp"
+    android:layout_marginBottom=".25dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/statisticsTaskIconId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_label_outline_primary_24dp" />
+
+        <TextView
+            android:id="@+id/statisticsTaskTitleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/statisticsTaskIconId"
+            android:padding="2dp"
+            android:text="Android Development"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/statisticsTaskProgressBarId"
+            android:layout_below="@+id/statisticsTaskTitleId"
+            android:layout_toRightOf="@+id/statisticsTaskIconId"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="77"/>
+
+        <TextView
+            android:id="@+id/statisticsTaskPercentageId"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="77%"
+            />
+        <TextView
+            android:id="@+id/statisticsTaskTotalId"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:layout_toRightOf="@id/statisticsTaskIconId"
+            android:layout_below="@id/statisticsTaskProgressBarId"/>
+        <TextView
+            android:id="@+id/statisticsTaskCompletedId"
+            android:textSize="12sp"
+            android:paddingEnd="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed: "
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/statisticsTaskProgressBarId"/>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

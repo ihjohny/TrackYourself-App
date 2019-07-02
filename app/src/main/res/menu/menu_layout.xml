@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <item
+     android:id="@+id/filterTasksBySortId"
+     android:orderInCategory="100"
+     android:title="Filter"
+     android:icon="@drawable/ic_sort_white_24dp"
+     app:showAsAction="always" >
+
+  <menu>
+
+   <item android:id="@+id/sortByName"
+       android:title="Sort By Name"
+       />
+
+   <item android:id="@+id/sortByTaskTime"
+       android:title="Sort By Task Time" />
+
+   <item android:id="@+id/sortByAddedTime"
+       android:title="Sort By Added Time" />
+
+  </menu>
+ </item>
+    <item
+        android:id="@+id/filterTasksTodayId"
+        android:orderInCategory="100"
+        android:title="Filter"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        app:showAsAction="always" >
+
+        <menu>
+
+            <item android:id="@+id/showCompleted"
+                android:title="Show Completed Tasks" />
+
+            <item android:id="@+id/hideCompleted"
+                android:title="Hide Completed Tasks" />
+
+        </menu>
+    </item>
+ <item
+     android:id="@+id/shareId"
+     android:title="share"
+     app:showAsAction="never"/>
+
+<item
+     android:id="@+id/aboutId"
+     android:title="about"
+     app:showAsAction="never"/>
+
+
+
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/remainingTaskViewCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop=".5dp"
+        >
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <View
+                android:id="@+id/remainingTasksBandageId"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="?colorPrimary">
+            </View>
+
+
+            <CheckBox
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/remainingTasksCheckBoxId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="?colorPrimary"
+            />
+
+            <LinearLayout
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:focusable="true"
+                android:clickable="true"
+                android:id="@+id/remainIngTasksViewId"
+                android:padding="2dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/remainingTaskTextId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Watching Cricket"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/remainingTasksDeleteId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/ic_delete_red_a200_24dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_below="@id/taskViewId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="1dp">
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:id="@+id/clockIconId"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_alarm_black_24dp" />
+
+                    <TextView
+                        android:layout_toRightOf="@+id/clockIconId"
+                        android:id="@+id/remainingTasksTimeId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12 : 12"
+                        android:layout_marginRight="20dp"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_toRightOf="@+id/remainingTasksTimeId"
+                        android:id="@+id/remainingTasksDateID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="12/12/2018"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/remainingTasksPriorityShowId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:text="Low"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

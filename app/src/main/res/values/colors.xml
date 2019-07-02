@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorMaterialGreen">#4CAF50</color>
+    <color name="colorMaterialGreenDark">#388E3C</color>
+    <color name="colorPrimaryDark">#087f23</color>
+
+    <color name="colorMaterialLightGreen">#8BC34A</color>
+    <color name="colorMaterialLightGreenDark">#689F38</color>
+
+    <color name="colorMaterialRed">#F44336</color>
+    <color name="colorMaterialRedDark">#D32F2F</color>
+    <color name="colorMaterialRedLight">#ef9a9a</color>
+
+
+    <color name="colorMaterialAmber">#FFC107</color>
+    <color name="colorMaterialAmberDark">#FFA000</color>
+    <color name="colorMaterialAmberLight">#ffe082</color>
+
+
+
+
+
+    <color name="colorMaterialDeepPurple">#7c4dff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorBlack">#000</color>
+    <color name="colorMaterial1">#FF3D00</color>
+    <color name="colorMaterial2">#2E7D32</color>
+    <color name="colorMaterial3">#AEEA00</color>
+    <color name="colorMaterial4">#00695C</color>
+</resources>
+

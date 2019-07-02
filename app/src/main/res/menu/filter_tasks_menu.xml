@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filterTasksId"
+        android:orderInCategory="100"
+        android:title="Filter"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        app:showAsAction="always" >
+
+        <menu>
+
+            <item android:id="@+id/showCompleted"
+                android:title="Show Completed Tasks" />
+
+            <item android:id="@+id/hideCompleted"
+                android:title="Hide Completed Tasks" />
+
+        </menu>
+    </item>
+
+</menu>
