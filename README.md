@@ -1,23 +1,23 @@
 # Track Yourself
 
 
-##### Track Yourself is a native android application developed by using java for tracking one's daily activities. User can track his daily activities by making task list and checking completed task. User can get task notification by setting task times with priority. User can view his task completation statistics from Pie Chart, Bar Chart, Line Chart. Chart features are implemented by using thrid-party chart library named MPAndroidChart. 
-#####Track Yourself can provide weekly or monthly report about user daily activities. 
+Track Yourself is a native android application developed by using java for tracking one's daily activities. User can track his daily activities by making task list and checking completed task. User can get task notification by setting task times with priority. User can view his task completation statistics from Pie Chart, Bar Chart, Line Chart. Chart features are implemented by using thrid-party chart library named MPAndroidChart. 
+Track Yourself can provide weekly or monthly report about user daily activities. 
 
 
 ### Sample
 
 Dashboard |Add Task |Today Task_List
 -------------|-----------------|-----------------
-![alt text](screenshots/dashboard.png "Dashboard")  | ![alt text](screenshots/add_task.png "Add Task") | ![alt text](screenshots/today_task_list.png "Today Task List") 
+![alt text](screenshot/dashboard.png "Dashboard")  | ![alt text](screenshot/add_task.png "Add Task") | ![alt text](screenshot/today_task_list.png "Today Task List") 
 
 
 Upcomming Task List |Statistics  |Line Chart
 -------------|-----------------|-----------------
-![alt text](screenshots/upcomming_task_list.png "Upcomming Task List")  | ![alt text](screenshots/statistics_pie_bar_chart.png "Statistics") | ![alt text](screenshots/statistics_line_chart.png "Line Chart") 
+![alt text](screenshot/upcomming_task_list.png "Upcomming Task List")  | ![alt text](screenshot/statistics_pie_bar_chart.png "Statistics") | ![alt text](screenshot/statistics_line_chart.png "Line Chart") 
 
 
-### Features
+### Features:
 
 * User can add task with notes and can set reminder time for task.
 * User will get notification when it is time for task or he can mute notification for specific task.
@@ -34,6 +34,9 @@ Upcomming Task List |Statistics  |Line Chart
 * [Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview)
 * [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 
+### Developed by:
+
+	Md. Imam Hossain Johny  email: ihjony23@gmail.com
 
 ### License
 
