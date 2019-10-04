@@ -1,7 +1,8 @@
 # Track Yourself
 
 
-Track Yourself is a native android application developed by using java for tracking one's daily activities. User can track his daily activities by making task list and checking completed task. User can get task notification by setting task times with priority. User can view his task completation statistics from Pie Chart, Bar Chart, Line Chart. Chart features are implemented by using thrid-party chart library named MPAndroidChart. Track Yourself can provide weekly or monthly report about user tasks. 
+##### Track Yourself is a native android application developed by using java for tracking one's daily activities. User can track his daily activities by making task list and checking completed task. User can get task notification by setting task times with priority. User can view his task completation statistics from Pie Chart, Bar Chart, Line Chart. Chart features are implemented by using thrid-party chart library named MPAndroidChart. 
+#####Track Yourself can provide weekly or monthly report about user daily activities. 
 
 
 ### Sample
@@ -13,7 +14,7 @@ Dashboard |Add Task |Today Task_List
 
 Upcomming Task List |Statistics  |Line Chart
 -------------|-----------------|-----------------
-![alt text](screenshots/upcomming_task_list.png "Upcomming Task List")  | ![alt text](screenshots/statistics_pie_bar_chart.png "Statistics") | ![alt text](screenshots/statistics_line_chart,png "Line Chart") 
+![alt text](screenshots/upcomming_task_list.png "Upcomming Task List")  | ![alt text](screenshots/statistics_pie_bar_chart.png "Statistics") | ![alt text](screenshots/statistics_line_chart.png "Line Chart") 
 
 
 ### Features
