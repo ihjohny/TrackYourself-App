@@ -16,7 +16,7 @@ Today Task_List | Upcomming Task List
 ![alt text](Screenshots/_today_task_list.png "Today Task List") | ![alt text](Screenshots/_upcomming_task_list.png "Upcomming Task List")
 
 Statistics | Line Chart
--------------|-----------------|-----------------
+-------------|-----------------
 ![alt text](Screenshots/_statistics_pie_bar_chart.png "Statistics") | ![alt text](Screenshots/_statistics_line_chart.png "Line Chart") 
 
 
