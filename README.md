@@ -7,14 +7,17 @@ Track Yourself is a native android application developed by using java for track
 
 ### Sample
 
-Dashboard |Add Task |Today Task_List
--------------|-----------------|-----------------
-![alt text](screenshot/_dashboard.png "Dashboard")  |![alt text](screenshot/_add_task.png "Add Task") |![alt text](screenshot/_today_task_list.png "Today Task List") 
+Dashboard | Add Task
+-------------|-----------------
+![alt text](Screenshots/_dashboard.png "Dashboard") | ![alt text](Screenshots/_add_task.png "Add Task") 
 
+Today Task_List | Upcomming Task List
+-------------|-----------------
+![alt text](Screenshots/_today_task_list.png "Today Task List") | ![alt text](Screenshots/_upcomming_task_list.png "Upcomming Task List")
 
-Upcomming Task List |Statistics  |Line Chart
+Statistics | Line Chart
 -------------|-----------------|-----------------
-![alt text](screenshot/_upcomming_task_list.png "Upcomming Task List")  |![alt text](screenshot/_statistics_pie_bar_chart.png "Statistics") |![alt text](screenshot/_statistics_line_chart.png "Line Chart") 
+![alt text](Screenshots/_statistics_pie_bar_chart.png "Statistics") | ![alt text](Screenshots/_statistics_line_chart.png "Line Chart") 
 
 
 ### Features:
@@ -34,9 +37,11 @@ Upcomming Task List |Statistics  |Line Chart
 * [Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview)
 * [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 
+
 ### Developed by:
 
 	Md. Imam Hossain Johny  email: ihjony23@gmail.com
+
 
 ### License
 
