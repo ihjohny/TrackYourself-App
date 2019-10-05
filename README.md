@@ -9,12 +9,12 @@ Track Yourself is a native android application developed by using java for track
 
 Dashboard |Add Task |Today Task_List
 -------------|-----------------|-----------------
-![alt text](screenshot/dashboard.png "Dashboard")  |![alt text](screenshot/add_task.png "Add Task") |![alt text](screenshot/today_task_list.png "Today Task List") 
+![alt text](screenshot/_dashboard.png "Dashboard")  |![alt text](screenshot/_add_task.png "Add Task") |![alt text](screenshot/_today_task_list.png "Today Task List") 
 
 
 Upcomming Task List |Statistics  |Line Chart
 -------------|-----------------|-----------------
-![alt text](screenshot/upcomming_task_list.png "Upcomming Task List")  |![alt text](screenshot/statistics_pie_bar_chart.png "Statistics") |![alt text](screenshot/statistics_line_chart.png "Line Chart") 
+![alt text](screenshot/_upcomming_task_list.png "Upcomming Task List")  |![alt text](screenshot/_statistics_pie_bar_chart.png "Statistics") |![alt text](screenshot/_statistics_line_chart.png "Line Chart") 
 
 
 ### Features:
