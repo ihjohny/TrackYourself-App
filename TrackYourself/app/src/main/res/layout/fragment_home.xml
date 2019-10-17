@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Home">
+    tools:context=".ui.home.Home">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout

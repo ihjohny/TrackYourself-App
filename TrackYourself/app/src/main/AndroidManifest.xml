@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,18 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TaskDialog" />
+        <activity android:name=".ui.dialog.TaskDialog" />
         <activity
-            android:name=".RemainingTasks"
-            android:parentActivityName=".MainActivity" />
+            android:name=".ui.remainingtask.RemainingTasks"
+            android:parentActivityName=".ui.MainActivity" />
 
-        <activity android:name=".Statistics"
-            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ui.statistics.Statistics"
+            android:parentActivityName=".ui.MainActivity" />
 
-        <receiver android:name=".AlertReceiver" />
-        <receiver android:name=".NotificationReceiver" />
+        <receiver android:name=".services.AlertReceiver" />
+        <receiver android:name=".services.notification.NotificationReceiver" />
         <receiver
-            android:name=".BootReceiver"
+            android:name=".services.BootReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -41,7 +41,7 @@
         </receiver>
 
         <service
-            android:name=".BootService"
+            android:name=".services.BootService"
             android:enabled="true" />
 
     </application>
