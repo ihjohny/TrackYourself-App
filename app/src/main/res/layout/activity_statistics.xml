@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.statistics.Statistics"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/statisticsScrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp">
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/monthRadioButtonId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Last 7 Days"
+                                android:textSize="14sp"
+                                android:checked="true"/>
+
+                            <RadioButton
+                                android:id="@+id/weekRadioButtonId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Month"
+                                android:textSize="14sp"/>
+
+
+                        </RadioGroup>
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_marginBottom="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="1dp"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true">
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:padding="2dp"
+                                android:id="@+id/last7daysViewId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:background="?attr/selectableItemBackground"
+                                android:focusable="true"
+                                android:clickable="false">
+
+                                <TextView
+                                    android:padding="3dp"
+                                    android:id="@+id/last7daysId"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="November 2018"
+                                    android:textSize="14sp"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_arrow_drop_down_ash_24dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:padding="2dp"
+                                android:id="@+id/selectDateId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:background="?attr/selectableItemBackground"
+                                android:focusable="true"
+                                android:clickable="true">
+
+                                <TextView
+                                    android:padding="3dp"
+                                    android:id="@+id/selectMonthId"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="November 2018"
+                                    android:textSize="14sp"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_arrow_drop_down_ash_24dp"/>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp"
+                    >
+
+                    <LinearLayout
+                        android:paddingTop="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:padding="3dp"
+                                android:layout_weight=".9"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <com.github.mikephil.charting.charts.PieChart
+                                    android:layout_width="match_parent"
+                                    android:layout_height="145dp"
+                                    android:id="@+id/taskCompletedPieChartId">
+
+                                </com.github.mikephil.charting.charts.PieChart>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_weight=".2"
+                                android:orientation="vertical"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent">
+
+                                <View
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_gravity="center"
+                                    android:layout_width=".5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/darker_gray"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:padding="5dp"
+                                android:layout_weight=".9"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <com.github.mikephil.charting.charts.PieChart
+                                    android:layout_width="match_parent"
+                                    android:layout_height="145dp"
+                                    android:id="@+id/taskPriorityPieChartId">
+                                </com.github.mikephil.charting.charts.PieChart>
+
+                            </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp">
+
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:id="@+id/statisticsBarChartId">
+
+
+                    </com.github.mikephil.charting.charts.BarChart>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp">
+
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:id="@+id/statisticsLineChartId">
+
+
+                    </com.github.mikephil.charting.charts.LineChart>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2dp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/statisticsRecyclerViewId"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
